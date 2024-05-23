@@ -3,12 +3,11 @@
 	"description": "React hooks for zodios",
 	"version": "11.0.1",
 	"main": "lib/index.js",
-	"module": "lib/index.mjs",
+	"type": "module",
 	"typings": "lib/index.d.ts",
 	"exports": {
 		".": {
 			"import": "./lib/index.mjs",
-			"require": "./lib/index.js",
 			"types": "./lib/index.d.ts"
 		},
 		"./package.json": "./package.json"
