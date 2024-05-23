@@ -86,6 +86,7 @@ const Users = () => {
       getPageParamList: () => {
         return ["page"];
       },
+      initialPageParam: undefined,
       getNextPageParam: () => {
         return {
           queries: {

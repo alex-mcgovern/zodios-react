@@ -644,6 +644,7 @@ describe("zodios hooks", () => {
               queries: { limit: 10 },
             },
             {
+              initialPageParam: undefined,
               getPageParamList: () => ["page"],
               getNextPageParam: (lastPage, pages) => {
                 return lastPage.nextPage
@@ -732,6 +733,7 @@ describe("zodios hooks", () => {
             },
             undefined,
             {
+              initialPageParam: undefined,
               getPageParamList: () => ["page"],
               getNextPageParam: (lastPage, pages) => {
                 return lastPage.nextPage
@@ -1193,6 +1195,7 @@ describe("zodios hooks", () => {
               queries: { limit: 10 },
             },
             {
+              initialPageParam: undefined,
               getPageParamList: () => ["page"],
               getNextPageParam: (lastPage, pages) => {
                 return lastPage.nextPage
@@ -1281,6 +1284,7 @@ describe("zodios hooks", () => {
             },
             undefined,
             {
+              initialPageParam: undefined,
               getPageParamList: () => ["page"],
               getNextPageParam: (lastPage, pages) => {
                 return lastPage.nextPage
