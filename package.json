@@ -1,7 +1,7 @@
 {
 	"name": "@alex-mcgovern/zodios-react",
 	"description": "React hooks for zodios",
-	"version": "11.0.2",
+	"version": "11.0.3",
 	"main": "lib/index.js",
 	"type": "module",
 	"typings": "lib/index.d.ts",
